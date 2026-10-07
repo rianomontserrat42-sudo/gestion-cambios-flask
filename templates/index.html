@@ -41,7 +41,11 @@
                     <td>${{ task.cost }}</td>
                     <td>
                         <!-- BUG 3: Ruta errónea /task/remove/ en lugar de /task/delete/ -->
+<<<<<<< HEAD
                             <button type="submit" class="btn-delete">Eliminar</button>
+=======
+                         <form action="/task/delete/{{ task.id }}" method="POST" style="display:inline;">                            <button type="submit" class="btn-delete">Eliminar</button>
+>>>>>>> main
                         </form>
                     </td>
                 </tr>
